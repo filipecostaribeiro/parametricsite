@@ -1,8 +1,0 @@
-PARAMETRIC 3D LAB - SITE
-Estrutura: index.html (layout) | conteudo.js (TODOS os textos) | img/ (imagens)
-
-Para editar textos, numeros, materiais, FAQ e portfolio: abra conteudo.js.
-Preencha EMPRESA (fundacao, cnpj, cidade) para aparecer no rodape.
-
-GitHub Pages: suba estes arquivos na raiz do repositorio, ative Pages
-(Settings > Pages) e informe o dominio do Registro.br.
