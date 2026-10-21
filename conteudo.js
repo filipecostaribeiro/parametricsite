@@ -96,16 +96,29 @@ const ENVIAR = [
 ];
 
 const PORTFOLIO_CASES = [
+    {
+    titulo: "Kettlebell Porta-Aliança Bipartido",
+    tags: ["Encaixe por Pressão", "Prototipagem", "Acabamento Premium"],
+    desafio: "Guardar uma aliança em uma peça do universo fitness, com abertura suave e sem folga excessiva.",
+    solucao: "Esfera dividida em duas calotas com encaixe de precisão, abrigando a aliança internamente e fechando com ajuste firme.",
+    ficha: [["Material", "PLA / PETG"], ["Processo", "FDM, prototipagem iterativa"], ["Diferencial", "Encaixe de precisão"]],
+    imagens: [
+      { src: "img/porta-alianca.webp", alt: "Kettlebell aberto revelando aliança interna" },
+      { src: "img/maos.webp", alt: "Peça montada demonstrando volume real" },
+      { src: "img/blueprint.webp", alt: "Corte A-A demonstrando espessura de parede" }
+    ],
+    linkTexto: "Quero um lote deste modelo"
+  },
   {
-    titulo: "Kettlebell Funcional com Mosquetão",
+    titulo: "Suporte de berço para babá eletrônica",
     tags: ["CAD Paramétrico", "PETG", "Pequenos Lotes"],
     desafio: "Um pingente fitness resistente, com nome personalizado e mosquetão que não quebre com o uso diário.",
     solucao: "Modelo paramétrico com nome em relevo ou baixo relevo ajustável e mosquetão elástico calibrado contra fadiga, impresso em PETG.",
     ficha: [["Material", "PETG"], ["Processo", "FDM, pequenos lotes"], ["Diferencial", "Nome parametrizado"]],
     imagens: [
-      { src: "img/garrafas.webp", alt: "Uso prático em garrafas térmicas" },
-      { src: "img/maos.webp", alt: "Detalhe do acabamento e gravação de nomes na mão" },
-      { src: "img/blueprint.webp", alt: "Estudo paramétrico de malha 3D e cotas" }
+      { src: "img/suporte_baba_mao.jpeg", alt: "Uso prático em garrafas térmicas" },
+      { src: "img/suporte_baba_berco.jpeg", alt: "Detalhe do acabamento e gravação de nomes na mão" },
+      { src: "img/suporte_baba_blue.jpeg", alt: "Estudo paramétrico de malha 3D e cotas" }
     ],
     linkTexto: "Solicitar desenvolvimento similar"
   },
